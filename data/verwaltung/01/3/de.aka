@@ -1,0 +1,11 @@
+${dynamicText_start}<h3>Entwurf</h3>
+<p>
+	Der Entwurf eines Bürogebäudes für das Finanzdezernat der Dortmunder
+	Universitätsverwaltung wurde bei einem von der Universität Dortmund
+	ausgelobten Wettbewerbsverfahren mit dem 1. Preis ausgezeichnet.
+</p>
+<p>
+	In der Folge wurde das Gebäude dann unter Federführung und Oberbauleitung des
+	Bau- und Liegenschaftsbetriebs NRW (BLB NRW NL Dortmund) und eines vom BLB
+	beauftragten Generalunternehmers aus Norddeutschland realisiert.
+</p>${dynamicText_end}${imageTitle_start}DEZERNAT 5${imageTitle_end}

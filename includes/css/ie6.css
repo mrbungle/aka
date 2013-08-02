@@ -1,0 +1,59 @@
+/** standpoints */
+div#footer ul li {
+    width: 19px;
+}
+div.standpoint li.quote {
+    padding: 0;
+    margin: 0;
+    width: 600px;
+}
+
+div.references ul.top ol.right {
+    margin-left: 40px;
+}
+
+div#footer li.paging {
+    padding: 3px 0 0 65px;
+}
+div.project li.thumbs div#projectsnav1 {
+    padding-top: 0;
+}
+div.project li.thumbs div#projectsnav1 img {
+    padding-top: 0;
+}
+div.project li.thumbs {
+    padding-top: 0 !Important;
+    margin-top: -12px !important;
+}
+#download {
+    left: 0;
+}
+div.impressum {
+    font-size: 75%;
+    line-height: 150%;
+    width: 1022px;
+}
+div.impressum div {
+    float: right;
+}
+div.energie {
+    line-height: 120%;
+}
+div.energieright {
+    line-height: 120%;
+}
+div.architecture {
+    line-height: 120%;
+}
+div.architectureright {
+    line-height: 120%;
+}
+div.owner ul.first li.adress li {
+    padding-top: 20px;
+}
+form div.right label {
+    margin-left: 0;
+}
+div.route .first img {
+    height: 260px;
+}

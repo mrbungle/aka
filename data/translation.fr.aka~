@@ -1,0 +1,322 @@
+#nav.concepts=
+#nav.contact=
+#nav.director=a kraus
+#nav.energy=
+#nav.impressum=
+nav.owner=a kraus
+#nav.residental=
+nav.route=contact
+#nav.standpoint=
+building.costs=co&ucirc;t
+building.data=Donn&eacute;es
+building.size=surface
+buildings.client=client
+daten.1=Alexander Kraus Architecture
+daten.2=Mallinckrodtstra&szlig;e 320
+daten.3=t&eacute;l&eacute;phone
+daten.4=fax
+daten.5=Architecture AKNW
+daten.6=
+footer.icon=Alexander Kraus Architecture Dortmund
+footer.next=avant
+footer.previous=arri&egrave;re
+
+leistungen.1=<strong>Alexander Kraus Architecture (AKA)</strong> est une agence d'urbanisme, d'architecture, d'architecture d'int&eacute;rieur et de design &agrave; Dortmund, ville allemande de 600.000 habitants situ&eacute;e &agrave; 100 km au nord-est de Cologne
+leistungen.2=La planification du r&eacute;am&eacute;nagement &eacute;nerg&eacute;tique de b&acirc;timents ainsi que les services CAO compl&egrave;tent la gamme de services offerts par I'agence. 
+leistungen.3=Nous travaillons sur des projets touchant aux domaines de l'industrie, du commerce, de la culture, des bureaux et de l'habitat pour le secteur public et le secteur priv&eacute;. 
+leistungen.4=De la premi&egrave;re esquisse jusqu'&agrave; la r&eacute;alisation compl&egrave;te, notre agence vous offre ainsi la "fabrique" enti&egrave;re du projet d'architecture pour les ma&icirc;tres d'ouvrage institutionnels, les investisseurs, les d&eacute;veloppeurs immobiliers, tout comme pour les personnes priv&eacute;es. 
+leistungen.5=Selon les projets nous travaillons &agrave; l'&eacute;chelle r&eacute;gionale, nationale ou internationale en utilisant l'allemand, l'anglais ou le francais en tant que langue de projet. 
+leistungen.6=Pour vous faire une premi&egrave;re id&eacute;e de notre mode de travail et de nos projets cliquez sous projets.
+nav.architecture=architecture
+nav.cultural=culture
+nav.innenraum=int&eacute;rieur
+nav.data=donn&eacute;es
+nav.design=art et design
+nav.office=bureaux
+nav.porfolio=portfolio
+nav.projects=projets
+nav.public=public
+nav.references=r&eacute;f&eacute;rences
+nav.residental=logement
+nav.studio=agence
+owner.10=Alexander Kraus Architecture
+owner.1=Goettingen
+owner.2=Etudes d'Economie
+owner.3=Dipl&ocirc;me d'Economie
+owner.4=Sarrebrueck, Dublin, Dortmund
+owner.5=Etudes d'Architecture
+owner.6=Dipl&ocirc;me d'Architecture
+owner.7=Dortmund, Wuppertal
+owner.8=Architecture employ&eacute; dans des agences &agrave; Bochum, Dortmund, Hanovre
+owner.9=projets ind&eacute;pendants en<br />urbanisme + architecture + design
+project.galeria.present=Mus&eacute;e d'Art Contemporain
+projects.idea.contest.emptyrow=concours d'id&eacute;es
+projects.fascade.contest=concours
+projects.idea.contest=concours d'id&eacute;es
+projects.installation=Sculpture experimentale
+projects.installation.emptyrow=Sculpture experimentale
+projects.mitarbeiter.schmidt=avec Wolfgang Schmidt, Dortmund
+projects.realisation.contest=concours
+projects.realisation.contest.emptyrow=concours
+projects.realisation.gestaltungswettbewerb=concours
+sq=m<sup>2</sup>
+
+projects.phoenixsee=Maison au bord du lac Phoenix<br />Dortmund, Allemagne
+projects.phoenixsee.subheadline=<br />concours d'id&eacute;es
+projects.ACBHM.h1=M&eacute;morial de l'Holocauste<br />Atlantic City, New Jersey, &Eacute;tats-Unis
+projects.zwenkau=Maison au bord du lac de Zwenkau<br />Leipzig, Allemagne
+projects.zwenkau.subheadline=concours d'id&eacute;es
+
+- - - - -
+
+NEU
+
+- - - - -
+references.projects.karlsruhe=Groupe scolaire<br />Karlsruhe, Allemagne
+
+references.projects.dezernat3.design=avant-projet originel				
+(Q06)
+
+references.projects.dezernat5.design=objets de design				
+(Q08 -10)
+
+
+---------------------------
+VARIABLEN STAND 2008-09-18
+---------------------------
+
+
+"Dezernat 5"
+references.projects.dezernat5.short=DEZERNAT 5
+administration.building=B&acirc;timent administratif universitaire
+university.do=Dortmund, Allemagne
+
+FEHLT NOCH (NUR F&Uuml;R Q08 - Q10)
+references.projects.dezernat5.design=objets de design
+
+"Dezernat 3"
+references.projects.dezernat3.short=DEZERNAT 3
+administration.building=B&acirc;timent administratif universitaire
+university.do=Dortmund, Allemagne
+
+
+dezernat.5.costs.value=ca. 1.25 Mio. &euro;
+dezernat.3.costs.value=ca. 2.45 Mio. &euro;
+
+
+FEHLT NOCH (&Uuml;UR FÜR Q06)
+references.projects.dezernat3.design=avant-projet originel
+
+"Milchwirtschaft Niedersachsen"
+references.projects.milchwirtschaft.headline=B&acirc;timent administratif
+references.projects.milchwirtschaft.subheadline=Hanovre, Allemagne
+projects.idea.contest
+
+"REFA Dortmund"
+references.projects.refa.short=B&acirc;timent administratif
+references.projects.refa.subheadline=Dortmund, Allemagne
+projects.idea.contest
+
+
+"Familienwohnen Sauerland"
+references.projects.familienwohnen=Maisons pour jeunes familles
+projects.idea.contest
+townplanning=
+(ENTF&Auml;LLT)
+
+"Wohnhaus Hamburg"
+references.projects.mehrfamilienhaus.hh.headline=Maison d'habitation<br />Hambourg, Allemagne<br />&nbsp;
+references.projects.mehrfamilienhaus.hh.subheadline=esquisse de r&eacute;am&eacute;nagement
+plan=
+&Auml;ENTFÄLLT)
+
+"U Dortmund"
+references.projects.u2021.short=U2021
+references.projects.u2021.subheadline=Mus&eacute;e d'Art Moderne et Contemporain<br />Dortmund, Allemagne
+
+projects.realisation.contest
+
+"Saarlandmuseum"
+project.galeria.present=Mus&eacute;e d'Art Contemporain
+references.projects.saarlandmuseum=Sarrebrueck, Allemagne
+projects.realisation.contest
+
+"folly Rotterdam"
+references.projects.follydock.short=follyDOCK
+references.projects.follydock.subheadline=Pavillon d'exposition<br />Rotterdam, Pays-Bas
+projects.idea.contest
+references.projects.ruethen=Sculpture pour un rond-point<br />Ruethen, Allemagne
+
+"Nowosibirsk"
+references.projects.nowosibirsk.headline=Pavillon du Festival d'Architecture
+
+references.projects.nowosibirsk.festival=Novosibirsk, Russie
+projects.realisation.contest
+
+"Sporthalle B&uuml;hl"
+references.projects.sporthalle.bruehl=Hall des sports<br />Buehl, Allemagne
+projects.realisation.contest
+
+"Solingen"
+references.bauten.solingen=Centre des visiteurs au parc de Muengsten<br />Solingen, Allemagne
+projects.realisation.contest
+
+"Friedhof Stuttgart"
+references.projects.friedhof=Cimeti&egrave;re du Future<br />Stuttgart, Allemagne
+projects.idea.contest
+
+"Pentagon"
+references.projects.pentagon=M&eacute;morial du Pentagone
+references.projects.pentagon.subheadline=Washington D.C., &Eacute;tats-Unis
+projects.idea.contest
+
+"Park Hildesheim"
+references.projects.ehrlicher=Homme Blanc au parc Ernst-Ehrlicher<br />Hildesheim, Allemagne
+projects.realisation.contest
+projects.mitarbeiter.schmidt=avec Wolfgang Schmidt, Dortmund
+
+"K Cobain"
+references.projects.k.cobain=K COBAIN
+projects.installation=Sculpture experimentale<br />bois, beacute;ton brut, verre
+
+picture=photo
+
+
+
+
+
+####################
+References
+####################
+references.footer.mitarbeiter.assmann=Assmann B + P GmbH, Dortmund
+references.footer.mitarbeiter.kfp=KFP GmbH, Bochum
+references.footer.mitarbeiter.overberg=Overberg Innenarchitekten, Bochum
+references.footer.mitarbeiter.stadtumbau=StadtUmBau GmbH, Kevelaer
+references.footer.mitarbeiter=en tant qu'employ&eacute; des agences 
+references.headline.left=R&eacute;alisations
+references.headline.right=Projets
+references.projects.barmenia=Asssurance BARMENIA, architecture d'int&eacute;rieur, Wuppertal, Allemagne
+references.projects.bogestra=BOGESTRA S.A., Centre de service, Bochum, Allemagne
+references.projects.debitel=debitel, 18 boutiques de services de t&eacute;l&eacute;communications, Allemagne
+references.projects.dezernat3.short=DEZERNAT 3
+references.projects.dezernat3='Dezernat 3' - B&acirc;timent administratif universitaire, Dortmund, Allemagne
+references.projects.dezernat5.short=DEZERNAT 5
+references.projects.dezernat5='Dezernat 5' - B&acirc;timent administratif universitaire, Dortmund, Allemagne
+references.ehrlicher=Homme Blanc au parc Ernst-Ehrlicher, Hildesheim, Allemagne
+references.projects.etc=etc.
+references.projects.familienwohnen=Maisons pour jeunes familles, Allemagne
+references.projects.follydock.short=follyDOCK
+references.projects.follydock.subheadline=Pavillon d'exposition Rotterdam, Pays-Bas
+references.projects.follydock=Centre de recherches Friedrich-Nietzsche, Naumburg, Allemagne
+references.friedhof=Homme Blanc au parc Ernst-Ehrlicher, Hildesheim, Allemagne
+references.projects.haus.f=Maison F, MuelheimlRuhr, Allemagne
+references.projects.haus.g=Maison G, Hanovre, Allemagne
+references.projects.haus.k=Maison K, Kleve, Allemagne
+references.projects.haus.m=Maison M, Dortmund, Allemagne
+references.projects.haus.s=Maison S, Unna, Allemagne
+references.projects.jva zeithain=Prison, Zeithain, Allemagne
+references.projects.k.cobain=K COBAIN
+references.projects.klostergut=Graefenthal Monast&egrave;re, R&eacute;am&eacute;nagement, Kleve, Allemagne
+references.projects.mehrfamilienhaus.hh=Maison d‘habitation, Hambourg, Allemagne
+references.projects.milchwirtschaft.headline=Documentation and Venue Centre, Germany
+references.projects.milchwirtschaft.subheadline=Documentation and Venue Centre
+references.projects.milchwirtschaft=H&ocirc;tel de ville, R&eacute;am&eacute;nagement, Gelsenkirchen-Buer, Allemagne
+references.projects.nietzsche=Mus&eacute;e d'art contemporain , Sarrebrueck, Allemagne
+references.projects.nowosibirsk.festival=Architecture + Design Festival
+references.projects.nowosibirsk.headline=Pavillon du Festival d'Architecture Novosibirsk, Russie
+references.projects.nowosibirsk=follyDOCK, Pavillon d'exposition, Rotterdam, Pays-Bas
+references.projects.pcspezialist=R&eacute;am&eacute;nagement de deux immeubles bancaires, Gelsenkirchen et Gladbeck, Allemagne
+references.projects.pentagon.subheadline=September 11th 2001
+references.projects.pentagon=Cimeti&egrave;re du Future, Stuttgart, Allemagne
+references.projects.rathaus.ge.sanierung=Hall des sports, Buehl, Allemagne
+references.projects.rathaus.ge=H&ocirc;tel de ville Gelsenkirchen-Buer, Allemagne
+references.projects.refa.short=B&acirc;timent administratif REFA Dortmund, Allemagne
+references.projects.refa.subheadline=r&eacute;am&eacute;nagement de l‘entr&eacute;e
+references.projects.refa=Groupe scolaire, Karlsruhe, Allemagne
+references.projects.saarlandmuseum=Extension du mus&eacute;e, Sarrebrueck, Allemagne
+references.projects.solarpark=Parc solaire, Kleve, Allemagne
+references.projects.solingen=Centre des visiteurs au parc de Muengsten, Solingen, Allemagne
+references.pentagon=Memorial du Pentagone, Washington D.C., &Eacute;tats-Unis
+references.projects.u2021.short=U 2021
+references.projects.u2021.subheadline=Mus&eacute;e d'Art Moderne et Contemporain, Dortmund, Allemagne
+references.projects.u2021=U2021 - Mus&eacute;e d'art moderne et contemporain, Dortmund, Allemagne
+references.projects.vergoelst=PC SPEZIALIST, avant-projet pour 150 succursales, Allemagne
+references.projects.vfl.bochum=Stade de football, am&eacute;nagement des bureaux , Bochum, Allemagne
+references.projects.volksbanken.ge=B&acirc;timent administratif REFA, R&eacute;am&eacute;nagement, Dortmund, Allemagne
+references.projects.waz=VERG&Ouml;LST AG, design de boutique, Allemagne
+references.schulzentrum.karlsruhe=Schulzentrum S&uuml;dstadt-Ost, Karlsruhe
+references.sporthalle.bruehl=  
+references.projects.wto.headline=Extension du si&#232;ge de l&#8217;OMC<br />Gen&egrave;ve, Suisse
+references.projects.wto.subheadline=
+references.projects.wto.ahnsorge=avec Jan Ahnsorge, Hamburg
+references.projects.zwenkau=Maison au bord du Lac de Zwenkau, Leipzig, Allemagne
+
+references.projects.1=U2021 - Mus&eacute;e d'art moderne et contemporain, Dortmund, Allemagne
+references.projects.2=Mus&eacute;e d'art contemporain , Sarrebrueck, Allemagne
+references.projects.3=Centre de recherches Friedrich-Nietzsche, Naumburg, Allemagne
+references.projects.4=follyDOCK, Pavillon d'exposition, Rotterdam, Pays-Bas
+references.projects.5=a + d Pavillon du festival, Novosibirsk, Russie
+references.projects.6=Homme Blanc au parc Ernst-Ehrlicher, Hildesheim, Allemagne
+references.projects.7=Cimeti&egrave;re du Future, Stuttgart, Allemagne
+references.projects.8=Memorial du Pentagone, Washington D.C., &Eacute;tats-Unis
+references.projects.9=Centre des visiteurs au parc de Muengsten, Solingen, Allemagne
+references.projects.10=Hall des sports, Buehl, Allemagne
+references.projects.11=Groupe scolaire, Karlsruhe, Allemagne
+references.projects.12=H&ocirc;tel de ville, R&eacute;am&eacute;nagement, Gelsenkirchen-Buer, Allemagne <sup>3</sup>
+references.projects.13=B&acirc;timent administratif REFA, R&eacute;am&eacute;nagement, Dortmund, Allemagne
+references.projects.14=B&acirc;timent administratif, Basse-Saxe, Allemagne
+references.projects.15=R&eacute;am&eacute;nagement de deux immeubles bancaires, Gelsenkirchen et Gladbeck, Allemagne <sup>2</sup>
+references.projects.16=PC SPEZIALIST, avant-projet pour 150 succursales, Allemagne <sup>2</sup>
+references.projects.17=VERG&Ouml;LST AG, design de boutique, Allemagne <sup>2</sup>
+references.projects.18=&eacute;ditions WAZ, design de boutique, Allemagne <sup>2</sup>
+references.projects.19=Maisons pour jeunes familles, Allemagne
+references.projects.20=Maison d'habitation, Hambourg, Allemagne
+references.projects.21=Parc solaire, Kleve, Allemagne <sup>4</sup>
+references.projects.22=M&#233;morial de la r&#233;unification, Berlin, Allemagne
+references.projects.23=Extension du si&#232;ge de l'OMC, Gen&#232;ve, Suisse
+references.projects.24=M&eacute;morial pour les Camps du Travail Forc&eacute;, St. Poelten, Autriche
+references.projects.25=Maison au bord du lac Phoenix, Dortmund, Allemagne
+references.projects.26=Sous-pr&eacute;fecture, Goeppingen, Allemagne, services CAO
+references.projects.27=&Eacute;cole d&#0039;h&ocirc;tellerie, Goeppingen, Allemagne, services CAO
+references.projects.28=Th&eacute;&acirc;tre d&#0039;Hambourg, nouvelle tour de sc&egrave;ne
+references.projects.29=M&eacute;morial de l&#0039;Holocauste, Atlantic City, &Eacute;tats-Unis
+references.projects.32=Sculpture pour un rond-point, Ruethen, Allemagne
+references.projects.33=Sculpture sur le terril Duhamel, Ensdorf, Sarre, Allemagne
+references.projects.34=Nouvelles stations de tramway, Mannheim, Allemagne
+references.projects.30=etc.
+references.projects.einheitsdenkmal=M&#233;morial de la r&#233;unification allemande<br />Berlin, Allemagne
+
+
+references.built.1='Dezernat 3' - B&acirc;timent administratif universitaire, Dortmund, Allemagne
+references.built.2='Dezernat 5' - B&acirc;timent administratif universitaire, Dortmund, Allemagne
+references.built.3=Asssurance BARMENIA, architecture d'int&eacute;rieur, Wuppertal, Allemagne <sup>2</sup>
+references.built.4=H&ocirc;tel de ville Gelsenkirchen-Buer, Allemagne <sup>2</sup>
+references.built.5=Prison, Zeithain, Allemagne <sup>1</sup>
+references.built.6=Graefenthal Monast&egrave;re, R&eacute;am&eacute;nagement, Kleve, Allemagne <sup>4</sup>
+references.built.7=BOGESTRA S.A., Centre de service, Bochum, Allemagne <sup>2</sup>
+references.built.8=debitel, 18 boutiques de services de t&eacute;l&eacute;communications, Allemagne <sup>2</sup>
+references.built.9=Stade de football, am&eacute;nagement des bureaux , Bochum, Allemagne
+references.built.10=Maison F, Muelheim/Ruhr, Allemagne <sup>4</sup>
+references.built.11=Maison G, Hanovre, Allemagne
+references.built.12=Maison K, Kleve, Allemagne <sup>4</sup>
+references.built.13=Maison M, Dortmund, Allemagne
+references.built.14=Maison S, Unna, Allemagne
+references.built.15=Piscine municipale, Dortmund, Allemagne
+references.built.16=Magasin &#233;lectronique grand public, Cologne, Allemagne
+references.built.17=etc.
+
+
+references.projects.wohnen.hausg.region.hannover.headline=Maison G<br />r&eacute;gion de Hanovre, Allemagne
+references.projects.wohnen.hausg.region.hannover.subheadline=
+references.projects.wohnen.hausk.kleve.headline=Maison K<br />Kleve, Allemagne
+
+projects.design.ploetzen=M&eacute;morial pour les Camps du Travail Forc&eacute;<br />St. Poelten, Autriche
+projects.design.ploetzen.subheadline=concours
+projects.wohnen.kleve.footnote=en tant que collaborateur avec Stadtumbau GmbH
+
+projects.familienwohnen.subehadline=concours d'id&eacute;es
+
+references.projects.schauspielhh.short=Th&eacute;&acirc;tre d&#0039;Hambourg<br />Nouvelle tour de sc&egrave;ne
+projects.duhamel.h1=Sculpture sur le terril Duhamel<br />Ensdorf, Sarre
+
+references.projects.strabaMa=Nouvelles stations de tramway<br />Mannheim, Allemagne

@@ -1,0 +1,948 @@
+	/**
+  global styles
+*/
+* {
+    margin:0;
+    padding:0;
+    border: 0;
+}
+html, body {
+    font-family: Arial, Verdana, sans-serif; 
+    font-size: 1em;
+    background-color: #fff;
+    height: 100%;
+}
+body {
+    text-align: center; /* horizontal centering for IE Win quirks */
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+ul, li {
+    list-style-type: none;
+}
+/**
+  common grid
+*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#distance { 
+    width: 1px;
+    height: 50%;
+    margin-bottom: -255px; /* half of container's height */
+    float: left;
+}
+
+div.wrapper {
+	margin: 0 auto;
+	position: relative; /* puts wrapper in front of distance div */
+	text-align: left; /** dont inherit center fix for ie 5, ie5.5 */
+	height: 510px;
+	width: 1022px;
+	clear: left;
+}
+#head {
+	height: 57px;
+	border-bottom: 1px solid #ccc;
+	color: #aaa;
+}
+#head a {
+	color: #aaa;
+}
+#head .selected a {
+	color: #000;
+}
+#content { 
+    height: 398px;
+    background-image: url(../../images/hg_l.jpg);
+    background-position:right center;
+    background-repeat: repeat;
+    margin: 15px 0;
+}
+#home .content {
+    background-image:url(../../images/hg_index.jpg) !important;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+#inhaber #content {
+    background-image: none !important;
+}
+#content p,
+#content h1 {
+    margin: 0;
+}
+#contentstandpoint {
+    height: 398px;
+    margin: 15px 0;
+}
+body#leistungen div#content p,
+body#leistungen div#content h1,
+body#energie div#content p,
+body#energie div#content h1,
+body#cad div#content p,
+body#cad div#content h1,
+body#cad div#content {
+    padding-left: 26px;
+    padding-right: 26px;
+}
+body#cad div#content p,
+body#cad div#content h1,
+body#cad div#content {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+scroll-container { 
+	height: 438px;
+}
+.home { 
+	background-image: url(../../images/hg_index.jpg) !important;
+	background-position: center center;
+	background-repeat: no-repeat; 
+}
+#footer {
+	text-align: center;
+	border-top: 1px solid #ccc;
+        clear: both;
+}
+
+/** navigation */
+div#head li {
+  display: inline;
+  font-weight: 600;
+  line-height: 18px;
+}
+div#head .second {
+	font-size: 80%;
+}
+div#head .first {
+	font-size: 80%;
+}
+div#head .third {
+	font-size: 80%;
+}
+.navigation {
+	float: left;
+}
+.navigation ul.first .selected a {
+	color: #000;
+}
+.navigation ul.second .selected a {
+	color: #000;
+}
+.navigation ul.third .selected a {
+	color: #000;
+}
+.langselector {
+	float: right;
+	font-size: 80%;
+}
+.langselector li {
+	vertical-align: bottom;
+}
+.langselector li a {
+	font-weight: normal;
+}
+.langselector li.selected a {
+	color: #000;
+}
+
+/** architecture, energie, impressum */
+div.impressum {
+	font-size: 75%;
+	line-height: 150%;
+ 	width: 1022px;
+}
+div.impressum div {
+	float: right;
+}
+div.energie {
+	font-size: 75%;
+	line-height: 150%;
+ 	width: 480px;
+        float: left;
+}
+div.energieright {
+	font-size: 75%;
+	line-height: 150%;
+ 	width: 480px;
+        float: right;
+}
+div.architecture {
+	font-size: 75%;
+	line-height: 150%;
+ 	width: 480px;
+        float: left;
+        height: 100%;
+        /*background-image: url(../../images/hg_l.jpg) !important;*/
+}
+div.architectureright {
+	font-size: 75%;
+	line-height: 150%;
+ 	width: 480px;
+        float: right;
+        /*background-image: url(../../images/hg_l.jpg) !important;*/
+}
+div.architecture div {
+	float: left;
+}
+div.architectureright {
+	float: right;
+}
+div.architecture p,
+div.architectureright p {
+	margin-right: 20px;
+	padding-top: 26px;
+}
+div.energie p,
+div.energieright p,
+div.impressum p {
+	margin-right: 20px;
+	padding-top: 8px;
+}
+div.architecture p.first,
+div.architectureright p.first {
+	padding-top: 0;
+}
+div.energie p.first,
+div.energieright p.first,
+div.impressum p.first {
+	padding-top: 20px;	
+}
+div.energie h1 {
+	font-size: 100%;
+}
+div.impressum h1 {
+	font-size: 100%;
+	text-decoration: underline;
+	font-weight: normal;
+	padding-bottom: 16px;
+}
+div.impressum h2 {
+	font-size: 100%;
+	text-decoration: underline;
+	font-weight: normal;
+	padding-bottom: 16px;
+}
+/** concepts */
+div.concepts {
+	font-size: 75%;
+	font-weight: bold;
+	line-height: 170%;
+	letter-spacing: 0.02em;
+}
+div.concepts ul {
+	margin-top: 106px;
+}
+div.concepts ul.first {
+	margin-top: 0;
+}
+div.concepts li {
+	height: 65px;
+}
+div.concepts li.symbols {
+ 	float: left;
+	width: 356px;
+}
+div.concepts li.quote {
+ 	display: table;
+	width: 623px; /* 982 - 359 */
+}
+div.concepts li.top {
+	margin-top: 40px;
+}
+div.concepts li.quote div {
+	display: table-row;
+}
+div.concepts li.quote div div {
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 18px;
+}
+div.concepts li.symbols img {
+	margin-left: 24px;
+}
+div.concepts li.symbols img.first {
+	margin-left: 19px;
+}
+/** standpoints IE-Hack marked with (http://www.jakpsatweb.cz/css/css-vertical-center-solution.html)
+*/
+div.standpoint {
+    margin: 15px 0;
+}
+div.standpoint ul {
+    width: 1022px;
+}
+div.standpoint li {
+ 	display: table;
+	float: left;
+	height: px;
+}
+div.standpoint li.quote, 
+div.standpoint li.desc {
+	#position: relative; /***/
+}
+div.standpoint li.desc {
+	width: 265px;
+}
+div.standpoint li.quote {
+	/*#margin-left: 225px;*/ /***/
+}
+div.standpoint li div {
+	display: table-row;
+}
+div.standpoint li div div {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+div.standpoint li.desc div div {
+	#position: absolute;  #top: 50%; /***/
+}
+div.standpoint li.quote div div {
+	#width: 673px; /***/
+	#position: absolute; /***/
+	#top: 50%; /***/
+}
+div.standpoint li.quote div div p {
+	#position: relative; /***/
+	#top: -50%; /***/
+}
+div.standpoint li.desc div div div {
+	#position: relative; /***/
+	#top: -50%; /***/
+}
+div.standpoint li.quote {
+    font-size: 118.75%;
+    font-weight: 100;
+    line-height: 220%;
+    width: 742px; /* 1022 - 265 - 15 */
+    height: 398px;
+    background-image:url(../../images/hg_standpoint.jpg);
+    background-position:right center;
+    background-repeat: repeat;
+    float: right;
+}
+div.standpoint span {
+ 	display: inline;
+	float: right;
+	top: 456px;
+	position: absolute;
+	font-size: 62.5%;
+	text-align: right;
+	width: 1018px; /* Spacer of text to the right (1022 - 4)*/
+	left: 0;
+}
+div.standpoint img {
+    width: 265px;
+    height: 398px;
+}
+/** references */
+div.references {
+	background-image: url(../../images/hg_l.jpg) !important;
+	font-size: 68.75%;
+	line-height: 150%;
+ 	width: 1022px;
+}
+div.references ul.top {
+	width: 1022px;
+}
+div.references ul ol {
+	float: left;
+	width: 453px;
+	margin: 16px 0 0 26px;
+}
+div.references ul ol.right {
+	margin-left: 66px;
+}
+div.references ul ul li {
+	padding-bottom: 5px;
+}
+div.references sup {
+	font-size: 62.50% !important;
+}
+div.references h2 {
+	font-size: 125%;
+	text-transform: uppercase;
+	padding-bottom: 21px;
+}
+div.references span.footnote {
+	clear: both;
+	display: block;
+	font-size: 0.9375em;
+	padding-top: 15px;
+	text-align: center;
+	width: 1022px;
+	color: #aaa;
+}
+
+/** route, owner, contact */
+div.route, div.owner, div.contact {
+ 	width: 1022px;
+}
+div.route {
+	background: none !important;
+}
+div.owner li.adress h1,
+div.owner li.adress ul {
+	margin-left: 0;
+}
+/*div.route ul.first li,*/
+/*div.contact ul.first li,*/
+/*div.owner ul.first li.description {
+	margin-top: 18px;
+}*/
+/*div.owner ul.first li.adress {
+	margin-top: 20px;
+}*/
+div.owner ul.first li.adress li {
+	width: 218px;
+	float: left;
+	padding-top: 30px;
+}
+div.owner ul.first li.adress li.year {
+	width: 85px;
+}
+div.owner p, 
+div.contact p {
+	font-size: 68.75%;
+}
+div.route p {
+	font-size: 68.75%;
+	line-height: 130%;
+}
+div.contact p {
+	line-height: 14px;
+	padding-bottom: 18px;
+	width: 300px;
+}
+div.owner li.adress li {
+	font-size: 68.75% !important;
+}
+div.contact h1, 
+div.route h1 {
+	font-size: 68.75%;
+	padding-bottom: 8px;
+}
+div.owner h1 {
+	font-size: 75.0%;
+	padding-bottom: 0;
+}
+div.route h2 {
+	font-size: 68.75%;
+	padding-top: 12px;
+	padding-bottom: 3px;
+}
+div.route h2.kvb {
+	padding-top: 7px;
+}
+div.route li, 
+div.contact li, 
+div.owner li.adress, 
+div.owner li.description {
+	float: left;
+}
+#kontakt li.description {
+    float: right !important;
+}
+div.route li.icon {
+	float: right;
+	padding-top: 8px;
+}
+div.route li.adressbottom {
+	padding-top: 12px;
+}
+div.route li.descbottom {
+	padding-top: 3px;
+}
+div.route .icon img {
+	margin-right: 26px;
+}
+div.contact li.desription, 
+div.route li.description, 
+div.owner li.description {
+	width: 597px; /* 1022 - 410 - 15 */
+}
+div.contact li.formular p, 
+div.route li.description p {
+	overflow: visible;
+	/*white-space: nowrap;*/
+}
+/*div.contact li.desc,*/
+div.route li.adress {
+	width: 410px;
+}
+div.owner li.adress {
+	width: 425px; /* 1022 - 597 (image) */
+}
+div.route .first img {
+	border: 1px solid #ccc;
+        /*width: 597px;*/
+        height: 268px;
+        /*float: right;*/
+}
+
+/** project */
+div.project {
+ 	width: 1022px;
+	background: none !important;
+}
+/*
+div.project ul.first li {
+	margin-top: 15px;
+}
+*/
+div.project h1 {
+	font-size: 75.0%;
+	padding-bottom: 0;
+}
+div.project h2, 
+div.project h3  {
+	font-size: 75.0%;
+	padding: 12px 0 0 0;
+	margin: 0;
+	clear: both;
+}
+div.project p  {
+	line-height: 14px !important;
+}
+div.project h3.sub  {
+	font-size: 68.75%;
+	font-weight: normal;
+	padding: 0;
+}
+div.project li.desc ul.first {
+	padding-top: 8px;
+}
+div.project li.desc {
+	float: left;
+}
+div.project li.desc li {
+	font-size: 68.75% !important;
+	margin: 0;
+	padding: 0;
+}
+div.project li.desc li sup {
+	font-size: 62.50% !important;
+}
+div.project li.desc p {
+	padding-top: 8px;
+	font-size: 68.75%
+}
+div.project li.desc {
+	width: 298.5px;
+}
+div.project li.desc li {
+	width: 50%;
+	float: left;
+}
+div.project li.desc li.value {
+	text-align: right;
+}
+div.project li.desc ul {
+	width: 210px;
+	clear: both;
+}
+div.project li.image {
+	width: 597px; /* 1022 - 425 */
+	float: right;
+	text-align: right;
+        overflow: hidden;
+}
+/** different styles for nearly each project */
+div.project h3.w2, 
+div.project h3.k4 {
+	padding-top: 16px;
+}
+div.project li.desc p.vw3, 
+div.project li.desc p.w2 {
+	padding-top: 16px;
+}
+div.project li.desc p.k1, 
+div.project li.desc p.k2, 
+div.project li.desc p.k3, 
+div.project li.desc p.k4 {
+	padding-top: 16px;
+}
+div.project div.k1, 
+div.project div.k2 {
+	padding-top: 8px;
+}
+div.project li.desc div.bauten p {
+	padding-top: 16px;
+}
+div.project li.desc div.bauten span, 
+div.project li.desc div.design span, 
+div.project li.desc div.cobain span {
+	display: block;
+	font-size: 68.75%;
+	font-weight: normal;
+}
+div.project li.desc div.bauten span, 
+div.project li.desc div.design span.imgdescbottom {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+div.project li.desc span.imgdesctop {
+	top: 210px;
+}
+div.project li.desc span.imgdescbottom {
+	padding: 0 !important;
+	top: 385px;
+}
+div.project li.desc div.cobain span.imgdescsmall, 
+div.project li.desc div.cobain span.imgdescsmall {
+	position: absolute;
+	top: 425px;
+	font-weight: normal;
+}
+div.project li.desc div.design span {
+	padding-top: 18px;
+	font-weight: normal;
+}
+div.project li.desc div.design h2 {
+	padding-top: 25px;
+}
+div.project li.desc div.design p {
+	line-height: 20px !important;
+	padding-bottom: 25px;
+}
+/* thumbs */
+div.project li.thumbs {
+	float: left;
+}
+div.project li.thumbs div {
+        margin: 0;
+        padding: 12px 0 0 4px;
+}
+div.project li.thumbs div:first-child {
+        padding-top: 0;
+}
+div.project li.thumbs div img {
+        padding-top: 0px;
+        margin: 0;
+        cursor: pointer;
+        cursor: hand; /* for IE 5, 5.5 (supports only hand) */
+}
+div.project li.thumbs div:first-child img {
+        padding: 0;
+}
+/*
+div.project li.thumbs li img.selected {
+        border: 1px solid red;
+        border-style: dashed;
+}
+*/
+
+/** contact */
+div.contact form {
+	margin-top: 10px;
+}
+form .group {
+	float: left;
+	width: 320px;
+	padding: 10px 0 0 15px;
+}
+form div.group div {
+	padding-bottom: 30px !important;
+	width: 305px;
+	#padding-bottom: 18px !important;
+}
+form div.right input {
+	float: right;
+}
+form label {
+	display: block;
+	font-size: 75.0%;
+	width: 75px;
+	white-space: nowrap;
+}
+form div.right label {
+	margin-left: 18px;
+}
+form div.group label {
+	float: left;
+}
+div .bottom {
+	width: 640px;
+	clear: both;
+	padding-left: 15px;
+}
+div .bottom label {
+	padding-bottom: 12px;
+	#padding-top: 10px;
+}
+div .bottom div.buttons {
+	clear: both;
+	text-align: right;
+	float: right;
+}
+input, textarea {
+	width: 640px;
+	border: 1px solid #000;
+	font-size: 75.0%;
+	float: left;
+}
+textarea {
+	width: 640px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+input {
+	width: 210px;
+}
+input#captcha_code {
+	width: 185px;
+}
+div .bottom div.buttons input {
+	width: 80px;
+	margin-left: 20px;
+}
+label {
+	cursor: pointer;
+}
+div .bottom .captcha {
+	clear: both;
+	padding-top: 30px;
+	#padding-top: 15px;
+	padding-bottom: 0;
+	width: 640px;
+	height: 60px;
+	vertical-align: text-bottom;
+}
+div .bottom .captcha label {
+	display: inline;
+	float: left;
+	width: 100px;
+	padding-top: 20px !important;
+	vertical-align: text-bottom;
+}
+div .bottom .captcha img {
+	/*margin-top: -45px;*/
+	/*padding-left: 8px;*/
+	#margin-top: -20px;
+	margin-top: -33px;
+	float: right;
+}
+form p {
+	font-size: 75.0% !important;
+	font-weight: bold;
+}
+form p.error {
+	color: #ff0000;
+}
+
+/** footer */
+div#footer span {
+  color: #aaa;
+  display: block;
+  font-size: 70%;
+  padding-top: 3px;
+  text-align: right;
+}
+.dropped {
+  top: 0;
+  left: 0;
+}
+
+/** footer standorte */
+div#footer ul li {
+	float: left;
+	width: 14px;
+	height: 14px;
+	margin-right: 10px;
+	margin-top: 6px;
+	border: 1px solid #aaa;
+	cursor: pointer;
+}
+div#footer ul li.selected {
+	background-color: red;
+}
+div#footer ul li.paging {
+	position: absolute;
+	left: 310px;
+	white-space: nowrap;
+	border: none;
+}
+div#footer ul li.paging img {
+	padding-left: 10px;
+}
+
+/** scrolling */
+div.architecture-panel,
+div.impressum-panel, 
+div.project-panel {
+	overflow: auto;
+	background: #fff;
+	width: 663px;
+}
+div.energie-panel, 
+div.architecture-panel {
+	width: 480px;
+}
+div.project-panel {
+	width: 290px;
+}
+div.energie div.impressum {
+	margin-top: 40px;
+}
+div.referenzen-panel {
+	overflow: auto;
+	background: #fff;
+}
+#architecture-scrollcontainer {
+	background: none;
+	height: 340px;
+}
+#impressum-scrollcontainer {
+	background: none;
+	height: 340px;
+}
+#energie-scrollcontainer {
+	background: none;
+	height: 398px;
+}
+#references-sc1, 
+#references-sc2 {
+	background: none;
+	height: 307px;
+}
+#project-sc {
+	background: none;
+	height: 398px;
+}
+.jScrollPaneTrack {
+	/*margin-top: 40px;*/
+}
+/*
+.jScrollPaneTrack {
+	position: absolute;
+	cursor: pointer;
+	right: 5px;
+	top: 0;
+	height: 100%;
+	background: #aaa;
+	width: 40px;
+	border: 1px solid #ccc;
+	overflow: visible;
+}
+a.jScrollArrowUp {
+	background: url(scroll_up.png) no-repeat 0 0;
+}
+a.jScrollArrowUp:hover {
+	background-position: 0 -15px;
+}
+a.jScrollArrowDown {
+	background: url(scroll_down.png) no-repeat 0 0;
+}
+a.jScrollArrowDown:hover {
+	background-position: 0 -15px;
+}
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+	background-position: 0 0;
+}
+
+.jScrollPaneTrack {
+	background: #fff;
+}
+.jScrollPaneDrag {
+	background: #fff url(scroll_grab.png) no-repeat 0 0;
+}
+.scroll-pane {
+	background: #fff;
+}
+*/
+.jScrollPaneTrack {
+	background: #ccc;
+}
+.jScrollPaneDrag {
+	background: #aaa;
+}
+* .spacer {
+	margin: 0 !important;
+	padding: 11px 0 0 0 !important;
+}
+#download {
+	display: none;
+}
+#cad #download,
+#inhaber #download,
+#home #download,
+#leistungen #download,
+#energie #download,
+#kontakt #download,
+#buero #download,
+#impressum #download,
+#referenzen #download,
+#route #download {
+	display: block;
+}
+
+
+#download {
+    position: absolute;
+    top: 440px;
+    height: 23px;
+    background-image: url(../../images/acrobat_icon.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+#cad #download,
+#inhaber #download,
+#impressum #download,
+#leistungen #download,
+#kontakt #download,
+#energie #download,
+#referenzen #download,
+#route #download {
+    top: 488px;
+    z-index: 10;
+}
+#buero #download,
+#home #download{
+    left: 10px;
+}
+#download p {
+	font-size: 60%;
+	padding-top: 6px;
+}
+#download p a {
+	color: #000;
+	padding-left: 22px;
+}
+
+#cad #content ul {
+    padding-top: 15px;
+    padding-left: 23px;
+}
+#cad #content ul li {
+    list-style-type: none;
+    #margin-left: 20px;
+}
+#cad #content ul li:before {
+  content: "- ";
+}
+#cad #content h3 {
+    font-size: 100%;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 13px;
+}
+#cad #content h3.first {
+    padding: 0 0 0 15px;
+}
+/*
+#project h1,
+#project h2,
+#project h3,
+#project h4 {
+    padding-right: 3px;
+    padding-left: 3px;
+}
+*/

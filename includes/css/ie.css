@@ -1,0 +1,23 @@
+/* 
+    Document   : ie
+    Created on : 20.02.2011, 01:09:04
+    Author     : ollisagichnicht
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.clearfix {
+    zoom: 1;     /* triggers hasLayout */
+}  /* Only IE can see inside the conditional comment
+and read this CSS rule. Don't ever use a normal HTML
+comment inside the CC or it will close prematurely. */
+
+div.standpoint li.desc div div div {
+    top: 0;
+}
+

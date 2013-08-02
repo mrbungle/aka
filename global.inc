@@ -1,0 +1,19 @@
+<?php
+
+$INCLUDE_ROOT = "/preview/includes/inc";
+// $ABSOLUTE_PATH = "/mnt/web2/12/31/51345231/htdocs/";
+$ABSOLUTE_PATH = "/var/www/www.ak-architekten.com/public_html/";
+$EMAIL_ADRESS = "buero@ak-architekten.com";
+
+/** Initialize Translator and set language */
+?><?php require("src/utils/Translator.php"); ?><?php
+
+$translator = Translator::getInstance();
+$translator->setAbsolutePath($ABSOLUTE_PATH);
+
+if ($_GET['lang'] == "") {
+    $LANGUAGE = Translator::$LANG_DE;
+} else {
+    $LANGUAGE = $_GET['lang'];
+}
+?>
